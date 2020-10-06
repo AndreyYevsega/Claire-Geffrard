@@ -1,0 +1,23 @@
+@import "../../assets/style/mixin.scss";
+
+.wrap-converter {
+  @include DisplayFlexAllCenter;
+  flex-direction: column;
+  margin-top: 50px;
+
+  .wrap-input {
+    @include DisplayFlexAllCenter;
+    margin-left: 40px;
+
+    .input {
+      margin-right: 15px;
+      width: 120px;
+    }
+  }
+
+  .exchange-value {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #40a9ff;
+  }
+}

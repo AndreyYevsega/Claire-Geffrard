@@ -1,0 +1,9 @@
+@import "../../assets/style/mixin.scss";
+
+.h1 {
+  margin: auto;
+  font-size: 24px;
+  color: #40a9ff;
+  @include DisplayFlexAllCenter;
+  margin-top: 20px;
+}
